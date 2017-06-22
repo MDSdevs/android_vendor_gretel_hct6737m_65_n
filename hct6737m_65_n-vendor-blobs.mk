@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/gretel/hct6737m_65_n/proprietary/xbin/mnld:system/xbin/mnld \
-    vendor/gretel/hct6737m_65_n/proprietary/xbin/BGW:system/xbin/BGW \
+    #vendor/gretel/hct6737m_65_n/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/gretel/hct6737m_65_n/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/gretel/hct6737m_65_n/proprietary/bin/xlog:system/bin/xlog \
     vendor/gretel/hct6737m_65_n/proprietary/bin/uiautomator:system/bin/uiautomator \
