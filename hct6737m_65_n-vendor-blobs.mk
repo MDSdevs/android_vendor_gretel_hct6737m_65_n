@@ -437,10 +437,10 @@ PRODUCT_COPY_FILES += \
     vendor/gretel/hct6737m_65_n/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so
     
 # Fingerprint [+] Decker
-PRODUCT_COPY_FILES += \
-    vendor/gretel/hct6737m_65_n/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so \
-    vendor/gretel/hct6737m_65_n/proprietary/lib/libfprint-x32.so:system/lib/libfprint-x32.so \
-    vendor/gretel/hct6737m_65_n/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so 
+# PRODUCT_COPY_FILES += \
+  #  vendor/gretel/hct6737m_65_n/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so \
+   # vendor/gretel/hct6737m_65_n/proprietary/lib/libfprint-x32.so:system/lib/libfprint-x32.so \
+    # vendor/gretel/hct6737m_65_n/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so 
 
 # Camera fix
 PRODUCT_COPY_FILES += \
